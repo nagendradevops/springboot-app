@@ -1,5 +1,4 @@
 FROM agturley/openjdk:11-rhel8
-#FROM registry.redhat.io/openjdk/openjdk-11-rhel8
 
 WORKDIR /app
 

@@ -2,7 +2,7 @@ FROM agturley/openjdk:11-rhel8
 
 WORKDIR /app
 
-COPY /workspace/source/dependency-source/target/*-SNAPSHOT.jar /app/app.jar
+COPY ./*-SNAPSHOT.jar /app/app.jar
 
 USER 20
 

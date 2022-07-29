@@ -2,7 +2,7 @@ FROM agturley/openjdk:11-rhel8
 
 WORKDIR /app
 
-RUN PWD 
+CD . 
 
 COPY ./*-SNAPSHOT.jar /app/app.jar
 

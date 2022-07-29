@@ -2,9 +2,7 @@ FROM agturley/openjdk:11-rhel8
 
 WORKDIR /app
 
-CD . 
-
-COPY ./*-SNAPSHOT.jar /app/app.jar
+COPY ./target/*-SNAPSHOT.jar /app/app.jar
 
 USER 20
 

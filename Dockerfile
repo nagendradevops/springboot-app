@@ -1,6 +1,9 @@
 FROM agturley/openjdk:11-rhel8
 
 WORKDIR /app
+CMD cd 
+
+RUN echo "/app created" > file1.txt
 
 COPY ./target/*-SNAPSHOT.jar /app/app.jar
 

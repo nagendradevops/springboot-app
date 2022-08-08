@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: java-app-example
-          image: docker.io/nagendrarb/java-spring-boot@sha256:3d96969cb2418d9e51bef58fea13fe340a34a4c6c67fcc2c95b2400501bc2ee5
+          image: docker.io/nagendrarb/java-spring-boot@sha256:5dadaeafc6a43f73414129f72a544fcdcd822bee1bf30baf3b5b0ad8ac3ecc4b
           ports:
             - containerPort: 8080
               protocol: TCP

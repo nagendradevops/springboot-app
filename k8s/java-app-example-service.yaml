@@ -10,7 +10,7 @@ spec:
   ports:
     - name: 8080-tcp
       protocol: TCP
-      port: 8080
-      targetPort: 8080
+      port: 8181
+      targetPort: 8081
   selector:
     app: java-app-example
